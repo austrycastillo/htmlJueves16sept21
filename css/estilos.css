@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Gluten:wght@100&display=swap');
+strong{
+    background-color: #000;
+    color: #fff;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
+main{
+    background-color: lightgoldenrodyellow;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Gluten', cursive;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: right;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;/*fuente segura*/
+    font-size: 20px;
+}
+h1{
+    font-family: 'Bonheur Royale', cursive;/*fuente de fantasía*/
+    font-size: 4em;
+    
+}
+a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    /* padding-left: 15px;/*padding son márgenes internos*/
+    /*padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px; */
+    /* padding: 5px 15px 5px 15px;arriba derecha abajo izquierda */
+    padding: 5px 15px;/*arriba abajo y a los lados*/
+    /* padding: 15px; todos los lados*/ 
+}
+/*pseudoclase: hover, visited, active, link*/
+a:hover{
+    background-color: teal;
+}
+a:active{
+    background-color: tomato;
+}
+section{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+form{
+    width: 80%;
+    background-color: green;
+    padding: 20px;
+}
